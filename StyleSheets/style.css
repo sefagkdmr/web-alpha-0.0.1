@@ -1,7 +1,7 @@
 
 
 body{
-  background-image: url("/Other/2.jpg");
+  background-image: url("../Other/2.jpg");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -10,7 +10,7 @@ body{
 
 @font-face {
     font-family: HiBlack;
-    src: url("/Other/HiBlack-n3a1.otf");
+    src: url("../Other/HiBlack-n3a1.otf");
 }
 .logo {
     padding-left: auto;
