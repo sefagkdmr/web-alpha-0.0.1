@@ -4,6 +4,7 @@
   <title>DevSeyfo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -22,16 +23,28 @@
           </button>
           <a class="navbar-brand" style="color: white;" href="#">Main</a>
     </div>
-    <div class="collapse navbar-collapse" id="#myNavbar">
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">My Works</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our Works</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </div>
   </nav>
 </header>
 
+<div class="icon-bars">
+  <a class="toggle" style="background: #585757" data-toggle="collapse" data-target="#s-bars">
+    <i id="ucgen"></i>
+  </a>
+<div class="collapse" id="s-bars">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="github"><i class="fa fa-github"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
+</div>
 <div class="heading">
   <h1>DevSeyfo</h1>
   <h3>
@@ -43,11 +56,19 @@
     <strong class="text-slider"></strong>
   </h3>
 </div>
+ <!--contact button gray-->
+  
   <div class="rand-text">
+    <div class="c-button" style="margin-bottom: 70px;">
+    <div class="c-button1" onclick="yonlendir()">
+      Contact Us
+    </div>
+
+  </div>
     <h5>
       <span id="rand-text"></span>
     </h5>
-</div>
+  </div>
 
 
 <div class="footer">
@@ -66,7 +87,7 @@
         <ul>
           <li><a href="#">About Me</a></li>
           <li><a href="#">My Works</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
       <div class="col-md-2">
@@ -83,7 +104,8 @@
         <hr>
       </div>
       <div class="col-md-12">
-        <p class="text-center">© 2021 DevSeyfo. All Rights Reserved.</p>
+        <p class="text-center">© 2023 DevSeyfo. All Rights Reserved.</p>
+        <p class="text-center"> DevSeyfo By Sefa Gökdemir </p>
       </div>
   </div>
 </div>

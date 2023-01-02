@@ -1,7 +1,9 @@
-
+html {
+    scroll-behavior: smooth;
+  }
 
 body{
-  background-image: url("../Other/2.jpg");
+  background-image: url("../Other/devseyfo.jpeg");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -38,7 +40,7 @@ body{
 
 .heading h1 {
     font-family: HiBlack;
-    color: rgb(172, 59, 59);
+    color: rgb(186, 38, 38);
     font-size: 70px;
 }
 
@@ -48,7 +50,7 @@ body{
 }
 
 .rand-text {
-    margin-top: 400px;
+    margin-top: 300px;
     text-align: center;
 }
 .rand-text h5 {
@@ -91,13 +93,191 @@ body{
   }     /* Change the link color to #111 (black) on hover */
 
 .footer {
+    transform: none;
     background-color: #121213;
     color: #f5f5f5;
     margin-top: 100px;
     padding-top: 75px;
-    margin-bottom: 0px;
+    margin-bottom: 0px; 
     padding-bottom: 40px;
     font-size: 18px;
     letter-spacing: 2px;
     opacity: 0.95;
   }
+
+  .c-button1 {
+    background-color:rgb(181, 29, 29);
+    border-color: rgb(181, 29, 29);
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 12px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .c-button {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .c-button :hover {
+    background-color: rgb(241, 34, 34);
+    border-color: rgb(241, 34, 34);
+    color: #868686
+  }
+  .icon-bars {
+    border: 1px solid #585757;
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bars a{
+    display: block;
+    text-align: center;
+    padding: 13px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 14px;
+    border: 1px solid #585757
+  }
+  
+  .icon-bars a:hover {
+    
+    z-index: 1;
+    border-color: #d43131;
+    background: #585757;
+    transform: scale(1.1);
+    transition: all .4s;
+  }
+
+  .social-links {
+    border: 1px solid #585757;
+    position: relative;
+
+
+  }
+  .social-links a {
+    display: block;
+    text-align: center;
+    padding: 13px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 14px;
+    border: 1px solid #585757
+  }
+  .social-links a:hover {
+    z-index: 1;
+    border-color: #d43131;
+    background: #585757;
+    transform: scale(1.1);
+    transition: all .4s;
+  }
+  
+  .fea {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .facebook {
+    background: #2d2d2d;
+    color: white;
+  }
+  
+  .twitter {
+    background: #2d2d2d;
+    color: white;
+  }
+  
+  .google {
+    background: #2d2d2d;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #2d2d2d;
+    color: white;
+  }
+  
+  .youtube {
+    background: #2d2d2d;
+    color: white;
+  }
+  .instagram {
+    background: #2d2d2d;
+    color: white;
+  }
+    .github {
+        background: #2d2d2d;
+        color: white;
+    }
+    .discord {
+        background: #2d2d2d;
+        color: white;
+    }
+    .twitch {
+        background: #2d2d2d;
+        color: white;
+    }
+    .reddit {
+        background: #2d2d2d;
+        color: white;
+    }
+    .snapchat {
+        background: #2d2d2d;
+        color: white;
+    }
+    .pinterest {
+        background: #2d2d2d;
+        color: white;
+    }
+    .tiktok {
+        background: #2d2d2d;
+        color: white;
+    }
+    .tumblr {
+        background: #2d2d2d;
+        color: white;
+    }
+    .whatsapp {
+        background: #2d2d2d;
+        color: white;
+    }
+    .telegram {
+        background: #2d2d2d;
+        color: white;
+    }
+    .skype {
+        background: #2d2d2d;
+        color: white;
+    }
+    .spotify {
+        background: #2d2d2d;
+        color: white;
+    }
+.col-md-12 {
+  padding-top: 60px;
+}
+.col-md-12 a{
+  background-color: #2d2d2d;
+  border: 20px solid #2d2d2d;
+  color:#c5c5c5;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.col-md-12 a:hover {
+  background-color: #585757;
+  border: 22px solid #585757;
+  color: rgb(193, 141, 38);
+  border-radius: 5px;
+  font-size: 25px;
+}
