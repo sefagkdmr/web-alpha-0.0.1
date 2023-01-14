@@ -3,6 +3,7 @@ let sozler = [
     "Bilginin efendisi olmak için çalışmanın uşağı olmak şarttır. (Balzac)",
     "Nerede olursanız olun, elinizdekilerle yapabileceklerinizi yapın. (Alex Morrison)",
     "Başarısız olmak zordur, ancak başarmaya çalışmamış olmak daha da zordur. (Theodore Roosevelt)",
+    "Durmak yok saplamaya devam gardaaşşşşş. (Benekli Ayhan)"
 ]
 let soz = sozler[Math.floor(Math.random() * sozler.length)]
 
@@ -10,7 +11,7 @@ document.getElementById("rand-text").innerHTML = soz;
 
 //
 yonlendir = function() {
-    window.location = "#";
+    window.location = "aboutus.html";
 }
 var y;
 $(document).ready(function() {
