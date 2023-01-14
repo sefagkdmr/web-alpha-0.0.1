@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body{
   background-image: url("../Other/devseyfo.jpeg");
@@ -14,6 +14,7 @@ body{
     font-family: HiBlack;
     src: url("../Other/HiBlack-n3a1.otf");
 }
+
 .logo {
     padding-left: auto;
     padding-right: auto;
@@ -53,6 +54,7 @@ body{
     margin-top: 300px;
     text-align: center;
 }
+
 .rand-text h5 {
     font-family: 'Times New Roman', Times, serif;
     color: gainsboro;
@@ -70,27 +72,29 @@ body{
     letter-spacing: 4px;
     opacity: 0.65;
   }
+
 .navbar-brand {
     color: #fff;
     font-size: 14px;
     opacity: 1;
 }
+
 .navbar-header a:hover{
     color: #bcb41a !important;
     font-size: 14px;
     opacity: 1;
-  }
+}
+
 .navbar-nav {
     padding-top: 5px;
     padding-bottom: 5px;
     opacity: 1;
-
-    }
+}
 
   .navbar-nav  li a:hover {
     color: #bcb41a !important;
     opacity: 1;
-  }     /* Change the link color to #111 (black) on hover */
+}   
 
 .footer {
     transform: none;
@@ -104,9 +108,9 @@ body{
     letter-spacing: 2px;
     opacity: 0.95;
     width: 100%;
-  }
+}
 
-  .c-button1 {
+.c-button1 {
     background-color:rgb(181, 29, 29);
     border-color: rgb(181, 29, 29);
     border-radius: 8px;
@@ -118,29 +122,32 @@ body{
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-  }
-  .c-button {
+}
+
+.c-button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-  }
-  .c-button :hover {
+}
+
+.c-button :hover {
     background-color: rgb(241, 34, 34);
     border-color: rgb(241, 34, 34);
     color: #868686
-  }
-  .icon-bars {
+}
+
+.icon-bars {
     border: 1px solid #585757;
     position: fixed;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-  }
+}
   
-  .icon-bars a{
+.icon-bars a{
     display: block;
     text-align: center;
     padding: 13px;
@@ -148,24 +155,25 @@ body{
     color: white;
     font-size: 14px;
     border: 1px solid #585757
-  }
+}
   
-  .icon-bars a:hover {
+.icon-bars a:hover {
     
     z-index: 1;
     border-color: #d43131;
     background: #585757;
     transform: scale(1.1);
     transition: all .4s;
-  }
+}
 
-  .social-links {
+.social-links {
     border: 1px solid #585757;
     position: relative;
 
 
-  }
-  .social-links a {
+}
+
+.social-links a {
     display: block;
     text-align: center;
     padding: 13px;
@@ -173,14 +181,15 @@ body{
     color: white;
     font-size: 14px;
     border: 1px solid #585757
-  }
-  .social-links a:hover {
+}
+
+.social-links a:hover {
     z-index: 1;
     border-color: #d43131;
     background: #585757;
     transform: scale(1.1);
     transition: all .4s;
-  }
+}
   
   .fea {
     padding: 20px;
@@ -295,7 +304,7 @@ body{
   margin-bottom: 20px;
   border-radius: 5px;
   background-color: #2d2d2d;
-  border: 0px solid #585757;
+  border: 0px solid #363636;
 }
 .thumbnail p {
   position: relative;
@@ -311,9 +320,10 @@ body{
   margin-top: 10px;
 }
 .thumbnail:hover {
-  background-color: #585757;
-  border: 30px solid #585757;
+  background-color: #363636;
+  border: 20px solid #363636;
   color: rgb(193, 141, 38);
   border-radius: 5px;
   font-size: 25px;
+  transition: 0.3s;
 }
