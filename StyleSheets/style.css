@@ -295,7 +295,7 @@ body{
   margin-bottom: 20px;
   border-radius: 5px;
   background-color: #2d2d2d;
-  border: 20px solid #2d2d2d;
+  border: 0px solid #585757;
 }
 .thumbnail p {
   position: relative;
@@ -309,4 +309,11 @@ body{
   letter-spacing: 2px;
   transition: all 0.3s ease;
   margin-top: 10px;
+}
+.thumbnail:hover {
+  background-color: #585757;
+  border: 30px solid #585757;
+  color: rgb(193, 141, 38);
+  border-radius: 5px;
+  font-size: 25px;
 }
