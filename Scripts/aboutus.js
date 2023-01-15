@@ -14,3 +14,25 @@ $(".icon-bars").click(function() {
         y = 0;
     }
 })
+
+function seyfoModal () {
+    
+    var modal = document.getElementById("modal");
+    if(modal != null){
+        modal.style.display = "block";
+    } 
+    
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+var span = document.getElementsByClassName("close")[0];
+if(span != null){
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+}
