@@ -19,3 +19,6 @@ $(document).ready(function () {
         $('#sidebar').toggleClass('active');
     });
 });
+yonlendir = function(url) {
+    window.location = url;
+}

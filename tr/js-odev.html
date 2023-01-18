@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DevSeyfo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../Other/Seyfo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../StyleSheets/style.css">
+    </head>
+    <body>
+        <center style="color:#d2d2d2">
+            <h1>JavaScript Ödevleri</h1>
+            <strong>Seyfullah Sefa GÖKDEMİR</strong><br>
+            <strong>22740111007</strong><br>
+            <div class="c-button">
+                <div class="c-button1" onclick="yonlendir('anasayfa.html')">
+                    Ana Sayfa
+                </div>
+            </div>
+        </center>
+        <div class="container" style="margin-top: 100px;">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a onclick="scriptOdev(10)">
+                            <img src="../Other/jsLogo.png" alt="DevSeyfo">
+                            <div class="caption">
+                                <p>Soru 10</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a onclick="scriptOdev(21)">
+                            <img src="../Other/jsLogo.png" alt="DevSeyfo">
+                            <div class="caption">
+                                <p>Soru 21</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a onclick="scriptOdev(32)">
+                            <img src="../Other/jsLogo.png" alt="DevSeyfo">
+                            <div class="caption">
+                                <p>Soru 32</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a onclick="scriptOdev(43)">
+                            <img src="../Other/jsLogo.png" alt="DevSeyfo">
+                            <div class="caption">
+                                <p>Soru 43</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a onclick="scriptOdev(47)">
+                            <img src="../Other/jsLogo.png" alt="DevSeyfo">
+                            <div class="caption">
+                                <p>Soru 47</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a onclick="scriptOdev(57)">
+                            <img src="../Other/jsLogo.png" alt="DevSeyfo">
+                            <div class="caption">
+                                <p>Soru 57</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a onclick="scriptOdev(78)">
+                            <img src="../Other/jsLogo.png" alt="DevSeyfo">
+                            <div class="caption">
+                                <p>Soru 78</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Soru 10-->
+        <div class="modal" id="modal10">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="10" class="close">&times;</span>
+                    <h2>Soru 10</h2>
+                    <p><strong>Ax<sup>2</sup> + Bx + C = 0</strong> şeklinde verilen 2. derece denklemin köklerini bulan program.</p>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                    <div class="col-md-4">
+                    <form> 
+                            <label>A değeri:</label>
+                            <input style="color: #000;"  type="number" id="soru10-A" value="1" placeholder="A değeri giriniz.." required><br><br>
+                            <label>B değeri:</label>
+                            <input style="color: #000;"  type="number" id="soru10-B" value="3" placeholder="B değeri giriniz.." required><br><br>
+                            <label>C değeri:</label>
+                            <input style="color: #000;"  type="number" id="soru10-C" value="2" placeholder="C değeri giriniz.." required><br><br>
+                            <input class="c-button1" type="button" value="sonuc" onclick="soruon()">
+                    </form>
+                </div>
+                <div class="col-md-8">
+                    <div id="sonuc10"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    <!--Soru 21-->
+        <div class="modal" id="modal21">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="21" class="close">&times;</span>
+                    <h2>Soru 21</h2>
+                    <p>Kullanıcının klavyeden girdiği sayı 0-100 Aralığındaysa ekranda “geçerli” değilse “geçersiz”
+                        yazan program</p>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                    <div class="col-md-4">
+                    <form> 
+                            <label>Sayı:</label>
+                            <input style="color: #000;" type="number" id="soru21" value="1" placeholder="Sayı giriniz.." required><br><br>
+                            <input class="c-button1" type="button" value="sonuc" onclick="yirmibir()">
+                    </form>
+                </div>
+                <div class="col-md-8">
+                    <div id="sonuc21"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <!--Soru 32-->
+        <div class="modal" id="modal32">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="32" class="close">&times;</span>
+                    <h2>Soru 32</h2>
+                    <p>Klavyeden girilen 10 sayıyı toplayan ve sonucu ekranda gösteren program</p>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                    <div class="col-md-4">
+                    <form> 
+                            <label>Sayı 1:</label>
+                            <input style="color: #000;" type="number" id="soru32" value="1" placeholder="Sayı giriniz.." required><br>
+                            <label>Sayı 2:</label>
+                            <input style="color: #000;" type="number" id="soru32-2" value="1" placeholder="Sayı giriniz.." required><br>
+                            <label>Sayı 3:</label>
+                            <input style="color: #000;" type="number" id="soru32-3" value="1" placeholder="Sayı giriniz.." required> <br>
+                            <label>Sayı 4:</label>
+                            <input style="color: #000;" type="number" id="soru32-4" value="1" placeholder="Sayı giriniz.." required> <br>
+                            <label>Sayı 5:</label>
+                            <input style="color: #000;" type="number" id="soru32-5" value="1" placeholder="Sayı giriniz.." required><br>
+                            <label>Sayı 6:</label>
+                            <input style="color: #000;" type="number" id="soru32-6" value="1" placeholder="Sayı giriniz.." required><br>
+                            <label>Sayı 7:</label>
+                            <input style="color: #000;" type="number" id="soru32-7" value="1" placeholder="Sayı giriniz.." required><br>
+                            <label>Sayı 8:</label>
+                            <input style="color: #000;" type="number" id="soru32-8" value="1" placeholder="Sayı giriniz.." required><br>
+                            <label>Sayı 9:</label>
+                            <input style="color: #000;" type="number" id="soru32-9" value="1" placeholder="Sayı giriniz.." required><br>
+                            <label>Sayı 10:</label>
+                            <input style="color: #000;" type="number" id="soru32-10" value="1" placeholder="Sayı giriniz.." required><br>
+                            <input class="c-button1" type="button" value="sonuc" onclick="otuziki()">
+                </div>
+                <div class="col-md-8">
+                    <div id="sonuc32"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!--Soru 43-->
+        <div class="modal" id="modal43">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="43" class="close">&times;</span>
+                    <h2>Soru 43</h2>
+                    <p> Girilen 3 sayıdan en büyüğünü bulan program</p>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                    <div class="col-md-4">
+                    <form> 
+                            <label>Sayı 1:</label>
+                            <input style="color: #000;" type="number" id="soru43" value="1" placeholder="Sayı giriniz.." required><br>
+                            <label>Sayı 2:</label>
+                            <input style="color: #000;" type="number" id="soru43-2" value="1" placeholder="Sayı giriniz.." required><br>
+                            <label>Sayı 3:</label>
+                            <input style="color: #000;" type="number" id="soru43-3" value="1" placeholder="Sayı giriniz.." required> <br>
+                            <input class="c-button1" type="button" value="sonuc" onclick="kirkuc()">
+                    </form>
+                    </div>
+                    <div class="col-md-8">
+                        <div id="sonuc43"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Soru 47-->
+
+        <div class="modal" id="modal47">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="47" class="close">&times;</span>
+                    <h2>Soru 47</h2>
+                    <p> 1 ile 40 arasında bulunan 5 in katı olan sayıları ekrana yazan program</p>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                    <div class="col-md-4">
+                    <div class="c-button">
+                        <div class="c-button1" onclick="kirkyedi()">
+                            Sayıları Bul
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div id="sonuc47"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Soru 57-->
+
+        <div class="modal" id="modal57">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="57" class="close">&times;</span>
+                    <h2>Soru 57</h2>
+                    <p> Klavyeden ardı ardına sayı girişi isteyen ve bu sayı 10 ile 15 arasında olmadığı sürece bu işleme devam eden program</p>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                    <div class="col-md-4">
+                    <form> 
+                            <label>Sayı</label>
+                            <input style="color: #000;" type="number" id="soru57" value="1" placeholder="Sayı giriniz.." required><br>
+                            <input class="c-button1" type="button" value="sonuc" onclick="elliyedi()">
+                    </form>
+                    </div>
+                    <div class="col-md-8">
+                        <div id="sonuc57"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--soru 78-->
+
+        <div class="modal" id="modal78">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="78" class="close">&times;</span>
+                    <h2>Soru 78</h2>
+                    <p> Seçilen sıcaklık birimini seçilen sıcaklık birimine dönüştüren program</p>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                    <div class="col-md-4">
+                    <form> 
+                            <label>Dönüşecek Sıcaklık Birimi</label><br>
+                            <select style="color: #000;"  id="soru78">
+                                <option value="1">Celcius</option>
+                                <option value="2">Fahrenheit</option>
+                                <option value="3">Kelvin</option>
+                            </select><br><br>
+                            <label>Sıcaklık</label><br>
+                            <input style="color: #000;" type="number" id="soru78-2" value="1" placeholder="Sıcaklık giriniz.." required><br><br>
+                            <label>Dönüştürülecek Sıcaklık Birimi</label><br>
+                            <select style="color: #000;" id="soru78-3">
+                                <option value="1">Celcius</option>
+                                <option value="2">Fahrenheit</option>
+                                <option value="3">Kelvin</option>
+                            </select><br><br>
+                            <input class="c-button1" type="button" value="sonuc" onclick="yetmissekiz()">
+                    </form>
+                    </div>
+                    <div class="col-md-8">
+                        <div id="sonuc78"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../Scripts/script.js"></script>
+        <script src="../Scripts/Odev-Script.js"></script>
+    </body>
+</html>

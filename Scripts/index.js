@@ -8,9 +8,7 @@ let soz = sozler[Math.floor(Math.random() * sozler.length)]
 
 document.getElementById("rand-text").innerHTML = soz;
 
-yonlendir = function(url) {
-    window.location = url;
-}
+
 var y;
 $(document).ready(function() {
     $("#ucgen").addClass("fa fa-plus")
